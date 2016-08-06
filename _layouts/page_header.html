@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<header class="site-header">
+
+
+    <!--Nagivation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img alt="Brand" class="img-responsive" src="http://i.imgur.com/doU7a0v.png" style="width: 100px; height: 35px; margin-top: -4px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li id="_home" {% if page.url == "/" %}class="active active-home"{% endif %}><a href="index.html"><i class="fa fa-home fa-lg"><span id="navigation-item">Home</span> </i> </a> </li>
+                    <li id="_about"{% if page.url == "/aboutme" %}class="active active-aboutme"{% endif %}><a href="aboutme.html"><i class="fa fa-user fa-lg"><span id="navigation-item">About Me</span> </i> </a> </li>
+                    <li id="_projects"{% if page.url == "/projects" %}class="active active-projects"{% endif %}><a href="projects.html"><i class="fa fa-code fa-lg"><span id="navigation-item">Projects</span> </i> </a> </li>
+                    <li id="_skills"{% if page.url == "/skills" %}class="active active-skills"{% endif %}><a href="skills.html"><i class="fa fa-cog fa-lg"><span id="navigation-item">Skills</span> </i> </a> </li>
+                    <li id="_education"{% if page.url == "/education" %}class="active active-education"{% endif %}><a href="education.html"><i class="fa fa-graduation-cap fa-lg"><span id="navigation-item">Education</span> </i> </a> </li>
+                    <li id="_research"{% if page.url == "/research" %}class="active active-research"{% endif %}><a href="research.html"><i class="fa fa-university fa-lg"><span id="navigation-item">Research</span></i> </a> </li>
+                    <li id="_contact"{% if page.url == "/contact" %}class="active active-contact"{% endif %}><a href="contact.html"><i class="fa fa-paper-plane-o fa-lg"><span id="navigation-item">Contact</span> </i> </a> </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://github.manash.me" target="_blank"><i class="fa fa-github fa-lg"></i> </a> </li>
+                    <li><a href="http://fb.manash.me" target="_blank"><i class="fa fa-facebook fa-lg"></i> </a> </li>
+                    <li><a href="http://gplus.manash.me" target="_blank"><i class="fa fa-google-plus"></i> </a> </li>
+                </ul>
+
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                <!---->
+                <!--</ul>-->
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>
+
+<div class="wrapit">
+
+{{content}}
+
+<div class="push"></div>
+
+</div>
+
+{% include footer.html %}
+
+
+</body>
+
+</html>
