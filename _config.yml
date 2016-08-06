@@ -8,16 +8,18 @@
 # Site settings
 title: Manash Kumar Mandal
 email: manashmndl@gmail.com
-description: > # Portfolio of Manash Kumar Mandal
+description: > 
+  Portfolio of Manash Kumar Mandal
 baseurl: "/manash" # the subpath of your site, e.g. /blog
 url: "http://manashmndl.github.io" # the base hostname & protocol for your site
+twitter_username: ManashKMandal
 github_username:  manashmndl
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /aboutme.html
+# navigation:
+#   - title: Home
+#     url: /index.html
+#   - title: About
+#     url: /aboutme.html
 
 # Build settings
 markdown: kramdown
