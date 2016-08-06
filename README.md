@@ -1,2 +1,0 @@
-# Manash
-My portfolio website
