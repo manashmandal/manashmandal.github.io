@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335156ca-d85a-4ce0-9a8d-17157c4ff1c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skills.html" afterPath="$PROJECT_DIR$/skills.html" />
-    </list>
+    <list default="true" id="335156ca-d85a-4ce0-9a8d-17157c4ff1c1" name="Default" comment="" />
     <ignored path="test_site.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,8 +190,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="550" />
-    <option name="y" value="283" />
+    <option name="x" value="211" />
+    <option name="y" value="299" />
     <option name="width" value="1377" />
     <option name="height" value="764" />
   </component>
@@ -363,15 +361,15 @@
       <workItem from="1470538346691" duration="1052000" />
       <workItem from="1470552808348" duration="45000" />
       <workItem from="1470597452629" duration="2157000" />
-      <workItem from="1470640791542" duration="3777000" />
+      <workItem from="1470640791542" duration="4236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57075000" />
+    <option name="totallyTimeSpent" value="57534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="283" width="1377" height="764" extended-state="0" />
+    <frame x="211" y="299" width="1377" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15944159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
