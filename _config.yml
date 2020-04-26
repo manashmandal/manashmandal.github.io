@@ -25,3 +25,5 @@ github_username:  manashmandal
 markdown: kramdown
 
 
+
+theme: jekyll-theme-cayman
